@@ -52,6 +52,6 @@ testpaths = ["tests"]
 source = ["ci_course"]
 
 [
-    tool.setuptools.package-data
+tool.setuptools.package-data
 ]
 ci_course = ["data/*.csv"]
